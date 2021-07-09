@@ -18,14 +18,15 @@ export default function Home() {
       </Head>
 
       <div className={styles.header}>
-        <IconContext.Provider value={{ size: 3+'em', className: styles.header_icon }}>
-          <Link href="/projects"><a>Ir para projetos<BiRightArrowAlt /></a></Link> 
-            
-          </IconContext.Provider>
+          <Link href="/projetos"><a>Ir para projetos</a></Link> 
       </div>
 
       <main className={styles.main}>
-        <Image src={Foto} alt=""></Image>
+        <div className={styles.Foto_row}>
+          <div className={styles.Foto_div}>
+            <Image src={Foto} alt="" className={styles.Foto}></Image>
+          </div>
+        </div>
         <h1 className={styles.title}>
           Gabriel Henrique Silva
         </h1>
@@ -33,6 +34,8 @@ export default function Home() {
         <p className={styles.description}>
           Desenvolvedor Python e Javascript
         </p>
+
+        <div></div>
 
       </main>
 

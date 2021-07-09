@@ -6,6 +6,8 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: #282a36;
+  color: #f8f8f2;
 }
 
 .main {
@@ -19,11 +21,13 @@
 
 .header {
   background-color: #282a36;
-  height: 46px;
+  height: 4rem;
   width: 100vw;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  padding: 10px;
+  border-bottom: 1px solid #44475a;
 }
 
 .header a {
@@ -33,22 +37,33 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  font-size: 2rem;
 }
 
-.header a svg {
-  color: #6272a4;
-  height: 2em;
-  width: 2em;
+.Foto {
+  display: inline;
+  margin: -10px auto;
+  height: 135%;
+  width: auto;
 }
 
-.header_icon {
-  color: #6272a4;
+.Foto_div {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.Foto_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .footer {
   width: 100%;
   height: 50px;
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid #44475a;
   display: flex;
   justify-content: center;
   align-items: center;
