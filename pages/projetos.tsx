@@ -1,19 +1,15 @@
-import styles from '../styles/Projects.module.css'
-import Link from 'next/link'
-
+import styles from '../styles/Info.module.css'
+import Header from '../src/Components/Header'
 
 interface ProjectProps {
   title: string;
   url: string;
-
 }
 
 export default function Projects() {
     return (
         <div className={styles.container}>
-            <div className={styles.header}>
-                <Link href="/"><a>Voltar para a página inicial</a></Link> 
-            </div>
+            <Header title="Projetos"/>
             <main className={styles.main}>
                 <Project title="Bot para Discord" url="https://github.com/TheSmileyDroid/SmileyDroidLoco" />
             </main>

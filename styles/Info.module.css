@@ -5,9 +5,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #f8f8f2;
   height: 100vh;
-  background-color: #282a36;
-  color: #f8f8f2;
 }
 
 .main {
@@ -26,11 +25,25 @@
   width: 100vw;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
   padding: 10px;
 }
 
 .header a {
+  background-image: linear-gradient(to right, #50fa7b, #6272a4);
+  color: transparent;
+  background-clip: text;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 36;
+}
+.header a:hover {
+  text-decoration: underline;
+}
+
+.header h2 {
   background-image: linear-gradient(to right, #50fa7b, #6272a4);
   color: transparent;
   background-clip: text;
