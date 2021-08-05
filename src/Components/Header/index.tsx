@@ -8,7 +8,7 @@ interface HeaderProps {
 export default function Header(props: HeaderProps) {
     return (
         <div className={styles.header}>
-            <Link href="/" passHref><a>Voltar</a></Link> 
+            <Link href="/" passHref><a><h4>Voltar</h4></a></Link> 
             <h2>{props.title}</h2>
         </div>
     )

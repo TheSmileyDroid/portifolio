@@ -1,0 +1,8 @@
+$font-family-sans-serif: Ubuntu, sans-serif;
+
+$theme-colors: (
+  "info": aquamarine,
+  "danger": orange,
+);
+
+@import "~bootstrap/scss/bootstrap";

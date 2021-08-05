@@ -43,7 +43,7 @@ function Info() {
         </h1>
 
         <p className={styles.description}>
-          Desenvolvedor Fullstack
+          Desenvolvedor de Software e Fullstack
         </p>
         
         </div>
