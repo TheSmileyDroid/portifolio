@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Gabriel Henrique Silva</title>
         <meta name="description" content="Portifólio de desenvolvedor" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
