@@ -53,10 +53,10 @@ function Info() {
 function Links() {
   return (
     <div className={styles.links}>
-      <h2><Link href="/aboutme" passHref><a>Sobre mim</a></Link></h2>
-      <h2><Link href="/projetos" passHref><a>Projetos</a></Link></h2>
-      <h2><Link href="/skills" passHref><a>Skills</a></Link></h2>
-      <h2><Link href="/contato" passHref><a>Contato</a></Link></h2>
+      <h5><Link href="/aboutme" passHref><a>Sobre mim</a></Link></h5>
+      <h5><Link href="/projetos" passHref><a>Projetos</a></Link></h5>
+      <h5><Link href="/skills" passHref><a>Skills</a></Link></h5>
+      <h5><Link href="/contato" passHref><a>Contato</a></Link></h5>
     </div>
   )
 }
