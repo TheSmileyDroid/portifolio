@@ -18,11 +18,11 @@ export default function Skills() {
                     e em seguida Javascript.
                     Vi um pouco de C# para fazer jogos e
                     agora estou estudando C na minha Universidade.
-                    Já desenvolvi alguns projetos de machine learning, fiz alguns sites, 
-                    fiz jogos e criei alguns apps mobile.
+                    Já desenvolvi projetos de machine learning, fiz sites, 
+                    fiz jogos e criei apps mobile.
                 </p>
                 <p>
-                    Já usei algumas outras linguagens para alguns projetos isolados também, 
+                    Já usei outras linguagens em projetos isolados, 
                     como Golang, Rust e Kotlin.
                 </p>
             </main>

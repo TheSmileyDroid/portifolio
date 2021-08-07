@@ -5,7 +5,7 @@ import React from 'react'
 
 interface ProjectProps {
   title: string,
-  url: string,
+  url?: string,
   img?: string,
   children?: React.ReactNode,
 }
@@ -19,13 +19,24 @@ export default function Projects() {
                 <Project title="Bot para Discord" url="https://github.com/TheSmileyDroid/SmileyDroidLoco">
                     Um bot com várias funções para se utilizar em servers do Discord. Feito Com a biblioteca Discord.py
                 </Project>
+                <Project title="Robô em Arduino">
+                    Um robô feito com arduino que pode seguir uma linha e desviar de obstáculos no caminho.
+                    Feito para o Arduino Challenge.
+                </Project>
+                <Project title="Jogos para Game Jams" url="https://smileydroid.itch.io">
+                    Alguns jogos que foram feitos para competições de jogos na plataforma itch.io
+                </Project>
                 </Container>
             </main>
         </div>
     )
 }
-//
+
 function Project(props: ProjectProps) {
+    var link = <Card.Link href={props.url} target="_blank">Ir para o projeto</Card.Link>
+    if (props.url == null) {
+        link = <div></div>
+    }
     return (
         <Card>
             <Card.Img src={props.img} variant="top"/>
@@ -34,7 +45,7 @@ function Project(props: ProjectProps) {
                 <Card.Text>
                     {props.children}
                 </Card.Text>
-                <Card.Link href={props.url} target="_blank">Ir para o projeto</Card.Link>
+                {link}
             </Card.Body>
         </Card>
         /*
