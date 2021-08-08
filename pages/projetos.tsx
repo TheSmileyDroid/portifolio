@@ -16,16 +16,24 @@ export default function Projects() {
             <Header title="Projetos"/>
             <main className={styles.main}>
                 <Container fluid>
-                <Project title="Bot para Discord" url="https://github.com/TheSmileyDroid/SmileyDroidLoco">
-                    Um bot com várias funções para se utilizar em servers do Discord. Feito Com a biblioteca Discord.py
-                </Project>
-                <Project title="Robô em Arduino">
-                    Um robô feito com arduino que pode seguir uma linha e desviar de obstáculos no caminho.
-                    Feito para o Arduino Challenge.
-                </Project>
-                <Project title="Jogos para Game Jams" url="https://smileydroid.itch.io">
-                    Alguns jogos que foram feitos para competições de jogos na plataforma itch.io
-                </Project>
+                    <Project title="Projeto Abrangente (Primal Relics)">
+                        Um jogo feito na Godot Engine com foco em ensinar matérias de diversas difículdades por meio de um
+                        sistema de rpg de estratégia.
+                    </Project>
+                    <Project title="Desafio Recoders (HearMe)">
+                        Um projeto com o objetivo de ser um app para conversar com outras pessoas anonimamente, com o proposito
+                         de ajudar pessoas que se sintam sozinhas.
+                    </Project>
+                    <Project title="Bot para Discord" url="https://github.com/TheSmileyDroid/SmileyDroidLoco">
+                        Um bot com várias funções para se utilizar em servers do Discord. Feito Com a biblioteca Discord.py.
+                    </Project>
+                    <Project title="Robô em Arduino">
+                        Um robô feito com arduino que pode seguir uma linha e desviar de obstáculos no caminho.
+                        Feito para o Arduino Challenge e para a Olimpiada Brasileira de robótica.
+                    </Project>
+                    <Project title="Jogos para Game Jams" url="https://smileydroid.itch.io">
+                        Alguns jogos que foram feitos para competições de jogos na plataforma itch.io.
+                    </Project>
                 </Container>
             </main>
         </div>
